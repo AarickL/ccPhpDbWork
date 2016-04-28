@@ -1,27 +1,13 @@
 <?php
 
-$firstName = "Mickey";
-$lastName = "Mouse";
+$a = 10;
+$b = "10";
 
-echo $firstName . "<br>";
+if ( (1 ===1) && (2 < 4) && (10 === 10)) {
+  echo "statement true" . "<br>";
+} else {
+  echo "staement false" . "<br>";
+}
 
-echo $lastName  . "<br>";
-
-
-$lastName = "Duck";
-
-
-echo $firstName . "<br>";
-echo $lastName . "<br>";
-
-$name = $firstName . " " . $lastName . "<br>";
-echo $name;
-
-
-$intro = "My name is " . $name . "<br>";
-
-echo $intro;
-
-echo "My first name is " . $firstName;
 
 ?>
